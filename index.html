@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="light">
+  <div class="container">
+    <div class="header">
+      <h1>Student Dashboard</h1>
+      <button class="mode-toggle" id="darkModeToggle">🌙 Dark Mode</button>
+    </div>
+
+    <!-- Counter Section -->
+    <div class="counter-section">
+      <h2>Counter</h2>
+      <div class="counter-value" id="counterValue">0</div>
+      <div class="counter-buttons">
+        <button id="decrementBtn">-</button>
+        <button id="resetBtn">Reset</button>
+        <button id="incrementBtn">+</button>
+      </div>
+    </div>
+
+    <!-- Users Section -->
+    <div class="users-section">
+      <div class="section-header">
+        <h2>👥 Users</h2>
+        <button class="load-btn" id="loadUsersBtn">Load Users</button>
+      </div>
+      <div class="users-grid" id="usersGrid">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
